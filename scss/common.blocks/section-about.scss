@@ -1,14 +1,45 @@
 .section-about {
-	padding: 				40px 215px; 
+	padding: 				100px 215px; 
 
 	&__card {
 		height: 			556px;
 		padding:			0;
+		border: 			none;
 	}
 
 	&__card-image {
-		height: 100%;
-		background-size: cover;
-		background-repeat: no-repeat;
+		height: 				100%;
+		background-size: 		cover;
+		background-repeat: 		no-repeat;
+		padding-top:			75px;
+		gap: 					40px;
+	}
+
+	&__card-title {
+		color: 					#fff;
+		text-transform:			uppercase;
+		font-family: 			'ProximaNova';
+		font-weight: 			700;
+		font-size:				28px;
+	}
+
+	&__card-paper {
+		background-color: 		#ebebeb;
+		padding-top:			50px;
+
+		& * {
+			font-family: 			'PT Sans', sans-serif;
+		}
+	}
+
+	&__button {
+		margin-top: 			90px !important;
+		width:					200px;
+		border-radius: 			0;
+		border-right: 			none;
+		border-bottom: 			none;
+		font-family: 			'PT Sans', sans-serif;
+		font-style: 			italic;
+		text-transform:			capitalize;
 	}
 }

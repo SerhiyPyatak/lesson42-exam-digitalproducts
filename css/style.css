@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap");
 @font-face {
   font-family: "ProximaNova";
   src: url("https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.eot");
@@ -509,16 +509,43 @@ template {
 }
 
 .section-about {
-  padding: 40px 215px;
+  padding: 100px 215px;
 }
 .section-about__card {
   height: 556px;
   padding: 0;
+  border: none;
 }
 .section-about__card-image {
   height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
+  padding-top: 75px;
+  gap: 40px;
+}
+.section-about__card-title {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "ProximaNova";
+  font-weight: 700;
+  font-size: 28px;
+}
+.section-about__card-paper {
+  background-color: #ebebeb;
+  padding-top: 50px;
+}
+.section-about__card-paper * {
+  font-family: "PT Sans", sans-serif;
+}
+.section-about__button {
+  margin-top: 90px !important;
+  width: 200px;
+  border-radius: 0;
+  border-right: none;
+  border-bottom: none;
+  font-family: "PT Sans", sans-serif;
+  font-style: italic;
+  text-transform: capitalize;
 }
 
 body {
