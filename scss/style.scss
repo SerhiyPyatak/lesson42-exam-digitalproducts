@@ -18,11 +18,13 @@
 
 @import "../node_modules/normalize-scss/sass/normalize/import-now";
 @import "common.blocks/header";
+@import "common.blocks/section-about";
 
 body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background-color: #ebebeb;
 }
 
 .fluid-container {

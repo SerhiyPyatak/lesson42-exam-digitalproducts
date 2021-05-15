@@ -509,10 +509,25 @@ template {
   font-size: 18px;
 }
 
+.section-about {
+  padding: 40px 215px;
+}
+.section-about__card {
+  height: 556px;
+  padding: 0;
+}
+.section-about__card-image {
+  height: 100%;
+  background-image: url("../../assets/section-about/DeathtoStock_Wired8.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  background-color: #ebebeb;
 }
 
 .fluid-container {
